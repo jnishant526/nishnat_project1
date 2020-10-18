@@ -1,0 +1,60 @@
+blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 2s linear infinite condemned_blink_effect;
+  }
+  
+  /* for Safari 4.0 - 8.0 */
+  @-webkit-keyframes condemned_blink_effect { 
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
+  /* job cards */
+
+
+  #card .card:hover{
+    box-shadow: 0 30px 20px #333;
+
+  }
+  #card .card{
+    border: solid 2px black;
+    
+  }
+  .col-md-4 img{
+
+    height: 172px;
+    width: 122px;
+  }
+  .card-body a{
+    padding-left: 20px;
+  }
+  .card{
+    margin-left: 25px;
+    background-color: cornsilk;
+  }
+  /* contributors*/
+
+ .card1 img:hover{
+  box-shadow: 0 30px 20px #333;
+}
+ 
+  
